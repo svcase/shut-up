@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sintony&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <title>Shut Up And</title>
+</head>
+<body>
+    <div class="flex-container">
+        <div class="text-header">
+            <h1>Just shut up and...</h1>
+        </div>
+        <div class="media-content">
+
+            <div class="content-container">
+                <p class="prompt-text">Watch this:</p>
+                
+                <video id="video-player" class="content" controls>
+                    <source src="/media/lake.mp4" type="video/mp4">
+                </video>
+            </div>
+
+            <div class="content-container" hidden>
+                <p class="prompt-text">Look at this:</p>
+                <img class="content" src="/media/beach.jpg" alt="beach image">
+            </div>
+
+            <div class="content-container" hidden>
+                <p class="prompt-text">Listen to this:</p>
+                <audio id="audio-player" controls name="media">
+                    <source src="media/birds.mp3" type="audio/mpeg">
+                </audio>
+            </div>
+
+            <div class="content-container" hidden>
+                <p class="prompt-text">Read this:</p>
+                <p class="content read-text">“You are the sky. Everything else is just the weather.” —Pema Chodron</p>
+            </div>
+
+            <div class="content-container" hidden>
+                <p class="prompt-text">Do this:</p>
+                <p class="content do-text">Take a moment to focus on each part of your body. Feel your arms at your side, your feet on the floor and your seat in the chair. Assess how you feel in each area. You can perform the body scan meditation lying down, seated or another posture. Notice if any part of your body is tense or tight. Focus on trying to soften or ease these areas and relax your muscles.</p>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
+

@@ -1,0 +1,73 @@
+body {
+    background-color: rgba(194, 225, 231, 0.5);
+}
+
+h1 {
+    font-family: 'Sintony', sans-serif;
+}
+
+img {
+    box-shadow: 1px 1px 10px grey;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.media-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    height: 100vh;
+}
+
+.prompt-text {
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+.content-container {
+    width: 80%;
+    height: 70%;
+}
+
+.content {
+    width: 100%;
+    height: 100%;
+}
+
+#audio-player {
+    width: 100%;
+}
+
+.read-text {
+    font-size: 1.5rem;
+}
+
+.do-text {
+    font-size: 1.5rem;
+}
+
+@media (max-width: 1024px) {
+    .media-content {
+        width: 95%;
+    }
+
+    .content-container {
+        width: 100%;
+        height: 70%;
+    }
+
+    .content {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-width: 767.98px) {
+    
+}
